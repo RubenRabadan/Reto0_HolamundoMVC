@@ -7,6 +7,7 @@ package mycompany.application;
 
 /**
  * This is the application class for the HOLAMUNDOMVC
+ * Try
  * @author ruben
  */
 public class Application {
