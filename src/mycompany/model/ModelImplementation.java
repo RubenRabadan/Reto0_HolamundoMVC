@@ -18,7 +18,6 @@ public class ModelImplementation implements Model{
     
     public String getGreeting() {        
     String greeting=null;
-    
     return greeting;
     }
       
