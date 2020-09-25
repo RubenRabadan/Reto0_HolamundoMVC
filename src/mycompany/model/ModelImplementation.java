@@ -23,7 +23,7 @@ public class ModelImplementation implements Model{
     //String greeting="hola";
     String greeting=null;
         try {
-            greeting = Controller.muestraContenido();
+            greeting = Controller.getGreeting();
         } catch (IOException ex) {
             Logger.getLogger(ModelImplementation.class.getName()).log(Level.SEVERE, null, ex);
         }

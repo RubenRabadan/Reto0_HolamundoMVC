@@ -5,6 +5,9 @@
  */
 package mycompany.application;
 
+import java.io.IOException;
+import mycompany.controller.Controller;
+
 /**
  * This is the application class for the HOLAMUNDOMVC
  * Try
@@ -14,9 +17,11 @@ public class Application {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws IOException {
+        Controller control = new Controller();
+        
     }
     
 }

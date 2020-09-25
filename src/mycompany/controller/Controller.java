@@ -28,9 +28,9 @@ public class Controller {
         
         
         return "y";*/
-        public static String muestraContenido() throws FileNotFoundException, IOException {
+        public static String getGreeting() throws FileNotFoundException, IOException {
         String cadena;
-        String archivo = "C:\\Users\\rubir\\Desktop\\HOLA.txt";
+        String archivo = "C:\\Users\\eneko\\Desktop\\HOLA.txt";
         FileReader f = new FileReader(archivo);
         BufferedReader b = new BufferedReader(f);
         cadena = b.readLine();
